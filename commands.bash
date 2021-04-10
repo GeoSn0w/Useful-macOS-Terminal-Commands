@@ -10,3 +10,6 @@ bzip2 -c9 Packages > Packages.bz2
 
 # Kill the darn usbd and stop iPhone from indefinitely connecting and disconnecting fast (Fuck you too, macOS Catalina :/)
 sudo killall -STOP usbd
+
+# Disable macOS GateKeeper
+sudo spctl --master-disable
